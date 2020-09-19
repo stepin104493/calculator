@@ -137,7 +137,7 @@ void quadroots(float a, float b, float c)
 void matrixMultiplication(int m, int n, int p, int q, int first[10][10], int second[10][10])
 {
 	int multiply[10][10];
-	int sum;
+	int sum[10][10];
 	
     	for ( int c = 0 ; c < m ; c++ )
     	{
