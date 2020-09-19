@@ -145,7 +145,7 @@ void matrixMultiplication(int m, int n, int p, int q, int first[10][10], int sec
       		{
         		for ( int k = 0 ; k < p ; k++ )
         		{
-          			sum = sum + first[c][k]*second[k][d];
+          			sum = sum + ((first[c][k])*(second[k][d]));
         		}
         		multiply[c][d] = sum;
         		sum = 0;
