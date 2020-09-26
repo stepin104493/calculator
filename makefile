@@ -6,7 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = calculator.c\
-calcheader.h\
+
 
 
 # All include folders with header files
